@@ -1,7 +1,7 @@
 :root {
-  --darkRed: #c42847;
-  --red: #de3c4b;
-  --orange: #e28413;
+  --darkRed: #3f71a3;
+  --red: #3f47b3;
+  --orange: #bf13e2;
   --white: #fbf5f3;
   --black: #161616;
 }
@@ -21,7 +21,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-  font-family: "Lilita One", cursive;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif; 
 }
 
 .title {
@@ -93,13 +93,13 @@ body:hover .title h1 {
 }
 
 .starfield > *:nth-child(1) {
-  animation-duration: 16s;
+  animation-duration: 70s;
 }
 .starfield > *:nth-child(2) {
-  animation-duration: 20s;
+  animation-duration: 80s;
 }
 .starfield > *:nth-child(3) {
-  animation-duration: 35s;
+  animation-duration: 110s;
 }
 .starfield > *:nth-child(4) {
   animation-duration: 55s;
