@@ -1,0 +1,22 @@
+{
+  "name": "index",
+  "version": "1.0.0",
+  "homepage": "https://pableks.github.io/index",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel ./index.html",
+    "prebuild-dev": "shx rm -rf dist/*",
+    "build-dev": "parcel build ./index.html --public-url ./",
+    "prebuild": "shx rm -rf dist/*",
+    "build": "parcel build ./index.html --public-url ./",
+    "push-gh-pages": "push-dir --dir=dist --branch=gh-pages --cleanup --verbose"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "gh-pages": "^4.0.0",
+    "parcel-bundler": "^1.6.1",
+    "shx": "^0.3.4"
+  },
+  "keywords": []
+}
